@@ -1,0 +1,68 @@
+.App {
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+.header{
+  background-color: rgba(0, 145, 255, 0.879);
+  height:60px;
+  width: 100vw;
+  font-size: 10px;
+}
+.box{
+ height:450px;
+ width: 90vw;
+ background-color: azure; 
+ margin-top: 60px;
+
+}
+.idNumber{
+  float: right;
+  
+}
+.jobDescription{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+  align-content: center;
+  line-height: 5px;
+
+}
+h3{
+  font-size: 20px;
+  line-height: 5px; 
+}
+.buttons{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+  width: 90vw;
+  position: relative;
+  
+}
+.previous{
+  position: absolute;
+  left: 0px;
+}
+.next{
+  position: absolute;
+  right: 0px;
+}
+.functionButtons{
+display: flex;
+justify-content: space-between;
+}
