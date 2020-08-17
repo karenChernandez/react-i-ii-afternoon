@@ -9,11 +9,11 @@ function Footer(props){
 
     return<div className='buttons'>
         
-        <button className="previous" onClick={()=> props.previous()}>Previous</button>
+        <a className="previous" onClick={() => props.previous()}>&lt; Previous</a>
         <button >Edit</button>
         <button>Delete</button>
         <button>New</button>
-        <button className="next" onClick={()=>props.next()}>Next</button>
+        <a className="next" onClick={()=>props.next()}>Next &gt;</a>
         
         </div>
 
